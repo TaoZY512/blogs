@@ -1,0 +1,11 @@
+@charset "utf-8";
+body{
+    font:22px sans-serif;
+}
+.table thead{
+    background:blue;
+    color:#fff;
+}
+.table-striped > tbody >tr:nth-of-type(odd){
+    background: rgb(175, 205, 250);
+}

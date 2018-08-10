@@ -1,0 +1,20 @@
+@charset "utf-8";
+.swiper-container {
+  height: 500px;
+}
+.swiper-slide {
+  text-align: center;
+  line-height: 500px;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.slide1 {
+  background: pink;
+}
+.slide2 {
+  background: blue;
+}
+.slide3 {
+  background: red;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>生活调查表</title>
+    <link rel="stylesheet" href="./static/css/normalized.css">
+    <link rel="stylesheet" href="./plugin/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+   
+</head>
+<body>
+
+    <main class="container-fluid">
+       <div class="row">
+          <ul class="menu-list">
+              <li>&nbsp;&nbsp; 
+                  <ul class="child-list">
+                    <li>周一</li>
+                    <li>周二</li>
+                    <li>周三</li>
+                    <li>周四</li>
+                    <li>周五</li>
+                    <li>周六</li>
+                    <li>周日</li>
+                    <li style="background:rgb(61, 61, 61)">总计</li>
+                  </ul>
+              </li>
+              <li>食品酒水
+                    <ul class="child-list drinks">
+                    </ul>
+              </li>
+              <li>购物消费
+                    <ul class="child-list shopping">
+                    </ul>
+              </li>
+              <li>居家生活
+                    <ul class="child-list life">
+                    </ul>
+              </li>
+              <li>行车交通
+                    <ul class="child-list traffic">
+                    </ul>
+              </li>
+              <li>休闲娱乐
+                    <ul class="child-list entertainment">
+                    </ul>
+              </li>
+              <li>人情费用
+                    <ul class="child-list social">
+                    </ul>
+              </li>
+              <li>金融保险
+                    <ul class="child-list finance">
+                    </ul>
+              </li>
+              <li>药品医疗
+                    <ul class="child-list medicine">
+                    </ul>
+              </li>
+              <li>其它消费
+                    <ul class="child-list other">
+                    </ul>
+              </li>
+          </ul>
+       </div>
+      <!-- 图表 -->
+		<div class="charts row">
+            <div id="result"></div>
+            <div id ="resultName"></div>
+            <div id="test"  style="width:800px;height:400px;margin: 50px 8px;"></div>
+            <div id="chart"  style="width:800px;height:400px;margin: 50px 8px;"></div>
+               
+        </div>
+    </main>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/echarts/dist/echarts.min.js"></script>
+    <script src="./static/js/tools.js"></script>
+    <script src="./static/js/common.js"></script>
+    <script src="./static/js/index.js"></script>
+</body>
+</html>
