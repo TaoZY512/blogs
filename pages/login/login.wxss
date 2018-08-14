@@ -1,0 +1,35 @@
+/* pages/login/login.wxss */
+
+image{
+  margin-top:50rpx;
+}
+input{
+  height:80rpx;
+  width:90%;
+  margin:30px auto;
+  border-bottom:1px solid #ccc;
+  font-size:24repx;
+  box-sizing:border-box;
+  padding-left:60rpx;
+  border-radius:10rpx;
+  font-weight: lighter;
+  letter-spacing: 2rpx;
+  position: relative;
+}
+button{
+  margin:60rpx auto;
+  width:90%;
+  height:90rpx;
+  outline:none;
+  border:none;
+  line-height: 90rpx;
+  background: rgb(199,27,10);
+  color:#fff;
+}
+.icon{
+  width:36rpx;
+  height:auto;
+  position:absolute;
+  top:-40rpx;
+  left:20rpx;
+}

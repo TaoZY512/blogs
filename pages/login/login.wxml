@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view id='app'>
+<!-- 标题 -->
+<image src="../../images/logo.png"></image>
+<!-- 表单区域 -->
+<form>
+  <label for=''></label>
+  <input type="text" bindinput="handleInput" id="username" placeholder='请输入账号'>
+  <image class="icon" mode="aspectFit" src="../../images/user.png"></image>
+  </input>
+  <input type="password" bindinput="handleInput" id="password" placeholder='请输入密码'>
+   <image class="icon" mode="aspectFit" src="../../images/password.png"></image>
+   </input>
+  <button  bindtap="hindleLogin">登录</button>
+</form>
+</view>

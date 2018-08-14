@@ -1,0 +1,13 @@
+/* pages/home/home.wxss */
+.title{
+ font-size:48rpx;
+ font-weight:600;
+  display:block;
+}
+.item{
+   margin:20rpx 30rpx;
+}
+.time{
+   display:block;
+   margin:20px 0;
+}
